@@ -22,6 +22,12 @@ Dism/Onine/Cleanup-Image/RestoreHealth
 
 LINHAS EM DETALHES: 
 
+- Regedit
+
+```bash
+Windows + R digite regedit
+```
+
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control
 4gb ram - 4194304
 6gb ram - 6291456
@@ -31,12 +37,6 @@ HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control
 24gb ram - 25165824
 32gb ram - 33554432
 64gb ram - 67108864
-
-- Regedit
-
-```bash
-Windows + R digite regedit
-```
 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
 
