@@ -32,6 +32,12 @@ HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control
 32gb ram - 33554432
 64gb ram - 67108864
 
+- Regedit
+
+```bash
+Windows + R digite regedit
+```
+
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
 
 alterar o arquivo: featureSettings hexadecimal: 1
