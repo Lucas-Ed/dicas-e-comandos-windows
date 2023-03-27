@@ -17,6 +17,12 @@ Dism/Onine/Cleanup-Image/ScanHealth
 Dism/Onine/Cleanup-Image/RestoreHealth
 ```
 
+- Descobrir erros de sistema
+```bash
+// Win + R e digite:
+
+perfmon/rel
+```
 ---
 - Melhorar desempenho:
 
