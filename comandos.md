@@ -34,6 +34,12 @@ LINHAS EM DETALHES:
 Windows + R digite regedit
 ```
 
+- Atalho gerenciamento de disco: 
+
+```bash
+diskmgmt.msc
+```
+
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control
 4gb ram - 4194304
 6gb ram - 6291456
