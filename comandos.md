@@ -184,6 +184,11 @@ dir/s
 ```bash
 Windows + V
 ```
+- Corrigir erros em uma unidade de disco:
+```bash
+# Substitua o e: pela unidade de disco desejada.
+chkdsk e: /f
+```
 
 
 
