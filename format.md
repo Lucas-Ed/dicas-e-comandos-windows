@@ -51,3 +51,16 @@ list partition
 ```bash
 exit
 ```
+
+- Criar partição de tamanho específico
+```bash
+create partition secundary size=4096
+```
+- Listar partições
+```bash
+list partition
+```
+- Deletar partições
+```bash
+delete partition
+```
