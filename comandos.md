@@ -190,7 +190,7 @@ Windows + V
 chkdsk e: /f
 ```
 - Verificar tamanho da memória ram do aparelho:
-- 
+
 ```bash
 wmic memorychip get Capacity
 ```
