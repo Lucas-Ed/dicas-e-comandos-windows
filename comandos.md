@@ -189,6 +189,11 @@ Windows + V
 # Substitua o e: pela unidade de disco desejada.
 chkdsk e: /f
 ```
+- Verificar tamanho da memória ram do aparelho:
+- 
+```bash
+wmic memorychip get Capacity
+```
 
 
 
