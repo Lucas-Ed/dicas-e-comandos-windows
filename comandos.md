@@ -194,6 +194,9 @@ chkdsk e: /f
 ```bash
 wmic memorychip get Capacity
 ```
-
+- Apagar a pasta node_modules de um projeto
+```bash
+rm -rf /node_modules
+```
 
 
