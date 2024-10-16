@@ -199,4 +199,10 @@ wmic memorychip get Capacity
 rm -rf /node_modules
 ```
 
+- Verificar chave de arquivo
+
+```bash
+CertUtil -hashfile C:\Users\Seu-usuario\Downloads\seu-arquivo.exe SHA256
+```
+
 
