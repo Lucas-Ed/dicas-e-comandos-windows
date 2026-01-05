@@ -17,6 +17,11 @@ gpg --full-generate-key
 ```bash
 gpg --import PGP_public_key.asc
 
+// ou
+
+gpg --import "D:/programas/SECRET.asc"
+
+
 ```
 - verificar assinatura digital
 
