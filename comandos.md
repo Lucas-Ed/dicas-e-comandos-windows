@@ -213,15 +213,15 @@ CertUtil -hashfile C:\Users\Seu-usuario\Downloads\seu-arquivo.exe SHA256
   ```
 - Saber qual windows está instalado
 
-Pressione Win + R
+Pressione `Win + R`
 
-Digite: winver
+Digite: `winver`
 
  - Se o Hyper-V não aparecer (ativar)
 
 Às vezes ele vem desativado.
 
-Pressione Win + R
+Pressione `Win + R`
 
 Digite:optionalfeatures
 
@@ -235,22 +235,21 @@ Marque:
 
 Clique em OK
 
-Reinicie o computador
+Reinicie o computador.
 
-Depois disso, procure de novo por Gerenciador do Hyper-V
---
+Depois disso, procure de novo por Gerenciador do Hyper-V.
+
+---
 
 - Comandos de captura de tela
   
-Windows + Alt + R → Inicia ou para a gravação de tela.
+`Windows + Alt + R` → Inicia ou para a gravação de tela.
 
-Windows + G → Abre a Xbox Game Bar
+`Windows + G` → Abre a Xbox Game Bar
 
-Windows + Print Screen: Captura a tela inteira e salva automaticamente a imagem na pasta Imagens > Capturas de Tela. Você verá um breve escurecimento da tela como confirmação. 
+`Windows + Print Screen` → Captura a tela inteira e salva automaticamente a imagem na pasta Imagens > Capturas de Tela. Você verá um breve escurecimento da tela como confirmação. 
 
-Windows + Shift + S: Abre a Ferramenta de Captura, permitindo que você selecione uma parte específica da tela. Após a captura, a imagem é copiada para a área de transferência, e você pode colá-la em um editor de imagens ou documento. 
+`Windows + Shift + S` → Abre a Ferramenta de Captura, permitindo que você selecione uma parte específica da tela. Após a captura, a imagem é copiada para a área de transferência, e você pode colá-la em um editor de imagens ou documento. 
+`Alt + Print Screen` → Captura apenas a janela ativa, ignorando a barra de tarefas. A imagem é copiada para a área de transferência e pode ser colada em um aplicativo de edição. 
 
-Alt + Print Screen: Captura apenas a janela ativa, ignorando a barra de tarefas. A imagem é copiada para a área de transferência e pode ser colada em um aplicativo de edição. 
-
-Print Screen (PrtSc): Captura a tela inteira e copia a imagem para a área de transferência. Você precisará colar a imagem em um aplicativo como Paint para salvá-la. 
-
+`Print Screen (PrtSc)` → Captura a tela inteira e copia a imagem para a área de transferência. Você precisará colar a imagem em um aplicativo como Paint para salvá-la. 
