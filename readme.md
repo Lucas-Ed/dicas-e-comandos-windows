@@ -1,71 +1,87 @@
 # 🪟 Dicas e Comandos Windows
 
-Este repositório reúne **dicas práticas, comandos e ajustes do Windows** voltados para:
+Este repositório reúne **anotações práticas sobre o Windows**, com foco em comandos, manutenção do sistema, formatação de dispositivos e verificação de autenticidade de softwares.
 
-- Diagnóstico do sistema
-- Correção de erros
-- Otimização de desempenho
-- Manutenção
-- Produtividade no dia a dia
+O objetivo é servir como **base de consulta rápida**, centralizando procedimentos úteis do dia a dia para usuários técnicos e entusiastas.
 
-O conteúdo é focado principalmente em **Windows 10 e Windows 11**, utilizando ferramentas nativas do sistema, Prompt de Comando, PowerShell e Editor de Registro.
+Compatível principalmente com **Windows 10 e Windows 11**.
+
+---
+
+## 📁 Estrutura do Repositório
+
+O repositório é composto pelos seguintes arquivos:
+
+### 📌 Dicas e comandos Windows
+Arquivo principal contendo:
+- Comandos de diagnóstico e reparo do sistema
+- Atalhos de teclado
+- Ferramentas nativas do Windows
+- Ajustes de desempenho e produtividade
+
+---
+
+### 💾 format
+Arquivo dedicado à **formatação de pendrives pelo CMD**, utilizando o utilitário `diskpart`.
+
+Inclui procedimentos para:
+- Listar discos
+- Selecionar dispositivos
+- Criar e excluir partições
+- Formatar em diferentes sistemas de arquivos
+- Atribuir letra à unidade
+
+---
+
+### 🔐 PGP
+Arquivo com instruções sobre **uso de chaves PGP/GPG** para verificação da autenticidade de softwares.
+
+Aborda:
+- Importação de chaves públicas
+- Verificação de assinaturas digitais
+- Validação da integridade de arquivos
+- Ajuste de nível de confiança de chaves
+
+Inclui referência a material externo para estudo.
 
 ---
 
 ## 🎯 Objetivo
 
-Centralizar comandos e procedimentos úteis para:
-- Usuários avançados
-- Técnicos de informática
-- Estudantes de TI
-- Desenvolvedores
-- Entusiastas do Windows
-
-Facilitando a consulta rápida e o reaproveitamento de soluções comuns no dia a dia.
-
----
-
-## 📁 Conteúdo do Repositório
-
-Neste repositório você encontrará:
-- Comandos de verificação e reparo do sistema
-- Ajustes de desempenho e responsividade
-- Atalhos de teclado úteis
-- Ferramentas de manutenção do Windows
-- Dicas de produtividade
-- Comandos de CMD e utilitários nativos
-
-> 📌 O conteúdo está organizado de forma simples para facilitar a leitura e aplicação.
+Facilitar o acesso a comandos e procedimentos técnicos comuns, evitando a necessidade de pesquisas repetitivas e concentrando conhecimento prático em um único local.
 
 ---
 
 ## ⚠️ Aviso Importante
 
-Algumas dicas envolvem:
-- Alterações no **Registro do Windows**
+Alguns conteúdos envolvem:
 - Execução de comandos administrativos
+- Alterações em discos e partições
+- Uso de ferramentas sensíveis do sistema
 
-⚠️ **Recomenda-se criar ponto de restauração ou backup antes de aplicar qualquer modificação.**  
-Use por sua conta e risco.
+⚠️ Utilize com atenção.  
+Faça backup de dados importantes antes de aplicar qualquer procedimento.
 
 ---
 
-## 🧠 Público-Alvo
+## 👥 Público-alvo
 
-- Usuários que desejam melhorar o desempenho do Windows
-- Profissionais de suporte técnico
-- Pessoas que gostam de aprender mais sobre o funcionamento do sistema operacional
+- Técnicos de informática
+- Estudantes de TI
+- Desenvolvedores
+- Usuários avançados
+- Entusiastas do sistema Windows
 
 ---
 
 ## 🤝 Contribuições
 
-Contribuições são bem-vindas!
+Contribuições são bem-vindas.
 
 Sinta-se à vontade para:
 - Abrir *issues*
+- Sugerir melhorias
 - Enviar *pull requests*
-- Sugerir melhorias ou novos comandos
 
 ---
 
