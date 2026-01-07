@@ -253,3 +253,14 @@ GitHub mostrará a tag como Verified.
 🔹 Para commits antigos, se mudar email, precisa de git rebase (cuidado).
 
 🔹 Se usar GitHub CLI (gh), ele detecta automaticamente chaves GPG.
+
+---
+Outras formas de verificação de software:
+- Assinatura digital com SHA256:
+```bash
+certutil -hashfile "C:\Users\VAIO\Downloads\programa.exe" SHA256
+```
+- Via finguerprint(impresão digital):
+```bash
+certutil -hashfile "C:\Users\VAIO\Downloads\programa.exe" MD5
+```
