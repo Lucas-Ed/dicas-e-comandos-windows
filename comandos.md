@@ -17,16 +17,40 @@ Dism/Onine/Cleanup-Image/ScanHealth
 Dism/Onine/Cleanup-Image/RestoreHealth
 ```
 
+- 4° método - Verificar e corrigir erros em uma unidade de disco específica:
+
+```bash
+chkdsk F: /f /r
+```
+O que faz:
+
+/f corrige erros
+
+/r tenta recuperar setores defeituosos
+
+---
 - Descobrir erros de sistema
 ```bash
 // Win + R e digite:
 
 perfmon/rel
 ```
+
+- Alterar letra da unidade de disco:
+```bash
+Win + X
+```
+Depois → Gerenciamento de Disco
+Clique com o botão direito → Alterar letra da unidade
+
+Remova e adicione uma nova letra, clique com o botão direito → Alterar letra da unidade
+
+Remova e adicione uma nova letra asua preferência.
+
 ---
 - Melhorar desempenho:
 
-LINHAS EM DETALHES: 
+Linhas em detalhes para melhorar o desempenho do Windows 10/11 para jogos e uso geral.: 
 
 - Regedit
 

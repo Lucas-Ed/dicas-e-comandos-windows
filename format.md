@@ -2,21 +2,23 @@
 # Formatação de qualquer "pendrive" pelo CMD do win
 
 abra o CMD e digite:
+```bash
 diskpart
-
+```
 Digite:
-
+```bash
 list disk
+```
 
-- Selecione o disco qu deseje formatar:
-  
+- Selecione o disco que deseje formatar:
+```bash 
 select disk número
-
-- formate com o comando:
+```
+- Formate com o comando:
 ```bash
 clean
 ```
-- veja se foi formatado usando, omparando o tamanho toal com o livre:
+- Veja se foi formatado usando, comparando o tamanho total com o livre:
  ```bash
 list disk
 ```
@@ -24,7 +26,7 @@ list disk
 ```bash
 create partition primary
 ```
-- Format a particição com o tipo:
+- Formate a particição com o tipo:
 ```bash
 format fs=ntfs quick
 ```
