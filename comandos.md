@@ -276,4 +276,69 @@ Depois disso, procure de novo por Gerenciador do Hyper-V.
 `Windows + Shift + S` → Abre a Ferramenta de Captura, permitindo que você selecione uma parte específica da tela. Após a captura, a imagem é copiada para a área de transferência, e você pode colá-la em um editor de imagens ou documento. 
 `Alt + Print Screen` → Captura apenas a janela ativa, ignorando a barra de tarefas. A imagem é copiada para a área de transferência e pode ser colada em um aplicativo de edição. 
 
-`Print Screen (PrtSc)` → Captura a tela inteira e copia a imagem para a área de transferência. Você precisará colar a imagem em um aplicativo como Paint para salvá-la. 
+`Print Screen (PrtSc)` → Captura a tela inteira e copia a imagem para a área de transferência. Você precisará colar a imagem em um aplicativo como Paint para salvá-la.
+
+---
+## Backup de drivers instalados no Windows, em caso de formatação, você pode restaurá-los facilmente.
+
+1 - Pressione a tecla windows, digite CMD e vai na opção de executar como administrador;
+2 - Vá até a pasta raiz do usuário, conhecida como unidade C, utilizando o comando "c..", até chegar na unidade C;
+3 - Criar uma pasta para armazenar os drivers, utilizando o comando `mkdir BKP_DRIVERS` (BKP_DRIVRES - é o nome dado a pasta);
+4 - Copiar e colar no CMD o seguinte comando:
+```bash 
+dism /online /export-driver /destination:C:\BKP_DRIVERS
+```
+5 - Aguarde o processo ser concluído, e verifique na unidade C a pasta BK
+
+6 - DRIVERS, onde estarão todos os drivers salvos.
+Pronto! Agora você tem um backup completo dos drivers do seu sistema.
+
+7 - Para restaurar os drivers após a formatação, siga estes passos:
+- Pressione a tecla windows, digite CMD e vá na opção de executar como administrador;   
+
+- Vá até a pasta onde os drivers estão salvos, utilizando o comando "cd C:\BKP_DRIVERS";
+- 
+- Forma 1:
+- Copiar e colar no CMD o seguinte comando:
+
+```bash
+dism /online /add-driver /driver:C:/Users/VAIO/drivers_vaio /recurse
+```
+- Forma 2:
+Instalar manualmente pelo Gerenciador de Dispositivos
+
+Útil se apenas um dispositivo estiver sem driver.
+
+Pressione Win + X → Gerenciador de Dispositivos
+
+Clique com o botão direito no dispositivo com erro ⚠️
+
+Atualizar driver
+
+Procurar drivers no computador
+
+Selecione a pasta onde os drivers estão salvos(exemplo abaixo):
+
+```bash
+C:\Users\VAIO\drivers_vaio
+
+```
+
+Marque “Incluir subpastas”
+
+Avançar.
+
+- Forma 3:
+Usando PowerShell
+
+Alternativa moderna ao DISM:
+
+Abra o PowerShell como Administrador e execute:
+
+```bash
+pnputil /add-driver C:\Users\VAIO\drivers_vaio\*.inf /subdirs /install
+```
+
+Finalize e reinicie o computador.
+
+---
