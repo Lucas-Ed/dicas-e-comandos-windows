@@ -35,6 +35,14 @@ O que faz:
 
 perfmon/rel
 ```
+- Alterar a política de execução de scripts no powershell:
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+Reverter para a politíca padrão:
+```bash
+Set-ExecutionPolicy Restricted -Scope CurrentUser
+```
 
 - Alterar letra da unidade de disco:
 ```bash
