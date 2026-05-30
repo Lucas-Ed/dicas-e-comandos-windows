@@ -56,6 +56,12 @@ Remova e adicione uma nova letra, clique com o botão direito → Alterar letra 
 Remova e adicione uma nova letra asua preferência.
 
 ---
+Acessar propriedades do sistema e variáveis de ambiente:
+Win +r e digite:
+```bash
+sysdm.cpl
+```
+---
 - Melhorar desempenho:
 
 Linhas em detalhes para melhorar o desempenho do Windows 10/11 para jogos e uso geral.: 
